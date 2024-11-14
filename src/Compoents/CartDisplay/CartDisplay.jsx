@@ -46,11 +46,11 @@ const CartDisplay = ({ cart, handleDeleteItem }) => {
                 <div className='flex flex-col md:flex-row gap-5 items-center'>
                     <p className='mt-3 md:mt-0'><span className='md:text-lg font-bold'>Total cost:</span> <span className="font-semibold">{totalPrice} k</span></p>
                     <div className='flex gap-2 items-center'>
-                    <button onClick={sortByPriceDescending} className='flex items-center gap-1 btn rounded-full bg-white border-2 border-purple-600'>
+                    <button onClick={sortByPriceDescending} className='flex items-center gap-1 btn rounded-full bg-white border-2 hover:border-2 border-purple-600 hover:border-purple-600'>
                         Sort by Price
                         <img src={sortIcon} alt="" />
                     </button>
-                    <button className='btn bg-purple-600 text-white rounded-full' onClick={openPurchaseModal}>Purchase</button>
+                    <button className='btn bg-purple-600 hover:bg-white border-2 hover:border-purple-600 text-white hover:text-purple-600 rounded-full' onClick={openPurchaseModal}>Purchase</button>
                     </div>
                 </div>
             </div>

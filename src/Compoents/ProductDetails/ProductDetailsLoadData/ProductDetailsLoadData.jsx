@@ -81,7 +81,7 @@ const ProductDetailsLoadData = ({ product }) => {
                     </div>
                 </div>
                 <div className="card-actions">
-                    <button onClick={addToCart} className="btn bg-purple-600 text-white rounded-full">
+                    <button onClick={addToCart} className="btn bg-purple-600 hover:bg-purple-700 text-white rounded-full hover:rounded-2xl">
                         Add to Cart
                         <img src={cartIcon} alt="Cart" />
                     </button>
