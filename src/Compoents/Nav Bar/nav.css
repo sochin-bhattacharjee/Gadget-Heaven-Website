@@ -1,0 +1,6 @@
+.text-glow:hover {
+    text-shadow: 1px 2px 15px rgb(254, 252, 255);
+}
+.text2-glow:hover {
+    color: rgb(163,46, 235);
+}
