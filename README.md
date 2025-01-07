@@ -18,7 +18,7 @@ This project utilizes several React fundamental concepts to provide a smooth and
 - **Conditional Rendering**: Used to render different UI elements based on the current state of the app (e.g., cart items, empty cart message, etc.).
 - **React Router**: Used for routing between pages (Product details, Cart, Wishlist, etc.).
 - **Event Handling**: Handling user interactions such as adding products to the cart or wishlist, sorting products, and deleting items from the cart.
-  
+
 ## Data Management
 For handling and managing the data, we use:
 
@@ -69,6 +69,38 @@ Here are 5 features of the **Gadget Heaven** website:
 - TailwindCSS for styling
 - Local Storage for cart and wishlist persistence
 
-## License
+## Dependencies
+The project requires the following dependencies:
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+```json
+"dependencies": {
+    "localforage": "^1.10.0",
+    "match-sorter": "^7.0.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.27.0",
+    "react-toastify": "^10.0.6",
+    "recharts": "^2.13.3",
+    "sort-by": "^1.2.0"
+}
+
+## DevDependencies
+The following dev dependencies are used in the project:
+
+```json
+"devDependencies": {
+    "@eslint/js": "^9.13.0",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.3",
+    "autoprefixer": "^10.4.20",
+    "daisyui": "^4.12.14",
+    "eslint": "^9.13.0",
+    "eslint-plugin-react": "^7.37.2",
+    "eslint-plugin-react-hooks": "^5.0.0",
+    "eslint-plugin-react-refresh": "^0.4.14",
+    "globals": "^15.11.0",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.14",
+    "vite": "^5.4.10"
+}
